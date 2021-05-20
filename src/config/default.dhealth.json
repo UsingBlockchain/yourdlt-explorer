@@ -1,0 +1,48 @@
+{
+	"peersApi": {
+		"defaultNode": "http://dual-01.dhealth.cloud:3000",
+		"nodes": [
+			"http://dual-01.dhealth.cloud:3000",
+			"http://dual-02.dhealth.cloud:3000",
+			"http://dual-03.dhealth.cloud:3000",
+			"http://api-01.dhealth.cloud:3000",
+			"http://api-02.dhealth.cloud:3000"
+		]
+	},
+	"apiNodePort": 3000,
+	"endpoints": {
+		"marketData": "https://min-api.cryptocompare.com/"
+	},
+	"networkConfig": {
+		"namespaceName": "dhealth.dhp",
+		"mosaicId": "39E0C49FA322A459",
+		"namespaceId": "9D8930CDBB417337",
+		"divisibility": "6",
+		"networkIdentifier": 104
+	},
+	"footer": {
+		"link": [
+			{
+				"href": "https://dhealth.network",
+				"text": "dHealth Network",
+				"icon": "IconNewspaper"
+			},
+			{
+				"href": "https://ubc.digital",
+				"text": "UBC Digital Magazine",
+				"icon": "IconReddit"
+			},
+			{
+				"href": "https://docs.yourdlt.tools",
+				"text": "YourDLT",
+				"icon": "IconForum"
+			},
+			{
+				"href": "https://github.com/UsingBlockchain",
+				"text": "Github",
+				"icon": "IconGithub"
+			}
+		]
+	}
+}
+

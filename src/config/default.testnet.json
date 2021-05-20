@@ -1,0 +1,45 @@
+{
+	"peersApi": {
+		"defaultNode": "http://ngl-dual-001.testnet.symboldev.network:3000",
+		"nodes": [
+			"http://ngl-dual-001.testnet.symboldev.network:3000",
+			"http://ngl-dual-101.testnet.symboldev.network:3000"
+		]
+	},
+	"apiNodePort": 3000,
+	"endpoints": {
+		"marketData": "https://min-api.cryptocompare.com/"
+	},
+	"networkConfig": {
+		"namespaceName": "symbol.xym",
+		"mosaicId": "091F837E059AE13C",
+		"namespaceId": "E74B99BA41F4AFEE",
+		"divisibility": "6",
+		"networkIdentifier": 152
+	},
+	"footer": {
+		"link": [
+			{
+				"href": "https://ubc.digital",
+				"text": "UBC Digital Magazine",
+				"icon": "IconNewspaper"
+			},
+			{
+				"href": "https://docs.yourdlt.tools",
+				"text": "YourDLT",
+				"icon": "IconForum"
+			},
+			{
+				"href": "https://github.com/UsingBlockchain",
+				"text": "Github",
+				"icon": "IconGithub"
+			},
+			{
+				"href": "http://faucet.testnet.symboldev.network/",
+				"text": "Faucet",
+				"icon": "IconHomeCurrencyUsd"
+			}
+		]
+	}
+}
+

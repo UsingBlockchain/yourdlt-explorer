@@ -1,0 +1,38 @@
+
+{
+    "path": "/accounts",
+    "name": "accounts",
+    "meta": {
+        "group": "list-page",
+        "keepAliveGoTo": ["detail-page"]
+    },
+    "props": {
+        "layout": "flex",
+        "storeNamespaces": ["account"],
+        "schema": [
+            {
+                "layoutOptions": "full-width",
+                "type": "CardTable",
+                "title": "accountsTitle",
+                "managerGetter": "account/timeline",
+                "errorMessage": "Failed to fetch account list",
+                "pagination": "server",
+				"hasFilter": true,
+				"onRowClickKey": "address",
+                "fields": [
+                    "address",
+                    "balance",
+                    "lastActivity",
+                    "importance",
+                    "accountAliasNames"
+                ],
+                "mobileFields": [
+                    "address",
+                    "importance",
+                    "info"
+                ]
+            }
+        ]
+    }
+}
+

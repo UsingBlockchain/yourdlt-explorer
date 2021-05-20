@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+
+$primary: $primary-color;
+$secondary: $secondary-color;
+$info: $secondary-color;
+$danger: $red-color;
+$pink: $pink-color;
+$blue: $blue-color;
+$green: $green-color;
+$orange: $orange-color;
+$dark-white: $dark-white-color;
+
+$grid-breakpoints: (
+    xxxs: 0,
+    xxs: 320px,
+    xs: 568px,
+    sm: 667px,
+    md: 768px,
+    lg: 992px,
+    xl: 1920px
+);
+
+$container-max-widths: (
+    xxxs: 0,
+    xxs: 320px,
+    xs: 568px,
+    sm: 667px,
+    md: 768px,
+    lg: 992px,
+    xl: 1920px
+);
+
+$theme-colors: () !default;
+$theme-colors: map-merge(
+    (
+        'primary': $primary,
+        'secondary': $secondary,
+        'success': $green,
+        'info': $info,
+        'warning': $orange,
+        'title': $pink
+    ),
+    $theme-colors
+);
+
+@import '../../node_modules/bootstrap/scss/bootstrap';
+@import '../../node_modules/bootstrap-vue/src/index.scss';
+@import './marker-cluster.scss';
+
+.border-transparent {
+    border-color: transparent;
+}
+
+.bg-transparent {
+    background: transparent;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+a {
+    font-weight: 600;
+}
+
+// a {
+//     color: var(--secondary);
+//     text-decoration: none;
+
+//     :hover {
+//         color: var(--pink);
+//         text-decoration: none;
+//     }
+// }

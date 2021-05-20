@@ -1,0 +1,23 @@
+{
+    "nodeUrl": "http://ngl-dual-001.testnet.symboldev.network:3000",
+    "marketDataUrl": "https://min-api.cryptocompare.com/",
+    "pagination": {
+        "pageSize": 25
+    },
+    "testAccount": {
+        "address": "TDZK6L4FXLTYQT2NPC4WNWD6CFQBTE33TZ76OJA"
+    },
+    "testMosaic": {
+        "mosaicId": "091F837E059AE13C"
+    },
+    "testNamespace": {
+        "rootNamespace": "symbol",
+        "subNamespace": "symbol.xym"
+    },
+    "testBlock": {
+        "height": 1
+    },
+    "testTransactions":{
+        "transferTransactionHash": "595F8F3EF2996CB73BCF6C397308B96B946711EEA6AC887B40E6CEB79E88323A"
+    }
+}
